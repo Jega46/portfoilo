@@ -63,7 +63,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url('/home/blue/Documents/Jega/portfolio/P1/assets/piccc1.avif');
+  background-image: url('./assets/piccc1.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
