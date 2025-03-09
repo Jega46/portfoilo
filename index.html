@@ -14,7 +14,7 @@
   <nav id="desktop-nav">
     <div class="logo">
       <div class="class_3">
-        <img src="/home/blue/Documents/Jega/portfolio/P1/assets/attachment_139945363.jpeg" class="class_4">
+        <!-- <img src="/home/blue/Documents/Jega/portfolio/P1/assets/attachment_139945363.jpeg" class="class_4"> -->
       </div>
     </div>
     <div>
@@ -48,20 +48,31 @@
   </nav>
   <section id="profile">
     <div class="section__pic-container">
-      <img src="/home/blue/Documents/Jega/portfolio/P1/assets/avataaars.png" class="class_22"
+      <img src="/home/blue/Documents/Jega/portfolio/P1/assets/working women2.jpg" class="class_22"
         alt="Jegadeeswari profile picture" />
     </div>
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Jegadeeswari</h1>
-      <p class="section__text__p2">Frontend Developer</p>
+      <p class="section__text__p2 typing-container">Frontend Developer</p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
           Download CV
         </button>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        <!-- <button class="btn btn-color-1" onclick="contactInfo()">
           Contact Info
-        </button>
+        </button> -->
+        <button class="contact-btn" onclick="openPopup()">Contact Info</button>
+
+        <!-- Popup Message -->
+        <div class="overlay" id="overlay"></div>
+        <div class="popup" id="popup">
+          <h2>Contact Information</h2>
+          <p><strong>Name:</strong> Jegadeeswari</p>
+          <p><strong>Email:</strong> jegathamurugesan49@gmail.com</p>
+          <p><strong>Phone:</strong> +91 6380752033 </p>
+          <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
       </div>
       <div id="socials-container">
         <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
@@ -76,7 +87,8 @@
     <h1 class="title">About Me</h1>
     <div class="section-container">
       <div class="section__pic-container">
-        <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+        <img src="/home/blue/Documents/Jega/portfolio/P1/assets/working women-removebg-preview.jpg"
+          alt="Profile picture" class="about-pic" />
       </div>
       <div class="about-details-container">
         <div class="about-containers">
@@ -286,7 +298,7 @@
         </ul>
       </div>
     </nav>
-    <p>Copyright &#169; 2023 Jegadeeswari. All Rights Reserved.</p>
+    <!-- <p>Copyright &#169; 2023 Jegadeeswari. All Rights Reserved.</p> -->
   </footer>
   <script src="script.js"></script>
 </body>
