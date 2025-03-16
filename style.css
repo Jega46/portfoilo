@@ -14,7 +14,7 @@
   border-right: 2px solid black;
   overflow: hidden;
   width: 0;
-  animation: typing 3s steps(12) forwards, blink 0.9s infinite;
+  animation: typing 3s steps(14) forwards, blink 0.9s infinite;
 }
 
 @keyframes typing {
